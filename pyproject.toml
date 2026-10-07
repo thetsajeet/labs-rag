@@ -7,7 +7,9 @@ authors = [
     { name = "thetsajeet", email = "ajeet.tumuluru@gmail.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "llama-index>=0.14.25",
+]
 
 [project.scripts]
 rag-labs = "rag_labs:main"
